@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book Manager</title>
+    <!-- Include Axios CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Library Book Manager</h1>
+    
+    <form id="bookForm">
+        <input type="text" id="bookTitle" placeholder="Enter book title" required />
+        <input type="text" id="bookAuthor" placeholder="Enter author name" required />
+        <input type="text" id="bookStatus" placeholder="Status (Available/Issued)" required />
+        <button type="submit">Add Book</button>
+    </form>
+    
+    <ul id="bookList"></ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
